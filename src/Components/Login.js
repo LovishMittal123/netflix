@@ -6,6 +6,7 @@ import { validation } from '../utils/Validation';
 import { updateProfile } from 'firebase/auth';
 import { useDispatch } from 'react-redux';
 import { addUser } from '../utils/userSlice';
+import { BG_URL } from '../utils/constants';
 const Login = () => {
   const dispatch=useDispatch();
   const [isSign,setIsSign]=useState(true);
@@ -63,7 +64,7 @@ const Login = () => {
     <div className='relative'>
       <Header/>
       <div className='absoulte inset-0'>
-      <img src='https://assets.nflxext.com/ffe/siteui/vlv3/1fd8c6d0-20db-4667-860e-dd1ad7353ac0/10f8d166-7c8c-499a-b16f-57c3740cdeae/IN-en-20240624-popsignuptwoweeks-perspective_alpha_website_small.jpg' alt='logo'/>
+      <img src={BG_URL} alt='logo'/>
       </div>
       <div className="absolute inset-0 flex items-center justify-center">
       <form onSubmit={(e)=>e.preventDefault()} className="w-3/12 absoulte p-12 bg-black my-36  mx-auto right-0 left-0 text-white rounded-lg bg-opacity-80">

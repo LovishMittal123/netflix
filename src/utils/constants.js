@@ -8,3 +8,9 @@ export const API_OPTIONS={
         'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3NDM2YjU0NWM5MTRmZWU5ZDhjMDZjOTUxODFjZDFkMiIsIm5iZiI6MTcxOTY1MTAyMS41NDg4MzcsInN1YiI6IjY2N2ZjNzBhZDFlZWM3MDBhOWFjMTVkMyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.LQl1UX0OfqiBYYh9JEgmhw0u03sLIcuQmzL_mg_a4hU'
     }
 }
+export const IMAGE_CDN="https://image.tmdb.org/t/p/w500"
+export const BG_URL='https://assets.nflxext.com/ffe/siteui/vlv3/1fd8c6d0-20db-4667-860e-dd1ad7353ac0/10f8d166-7c8c-499a-b16f-57c3740cdeae/IN-en-20240624-popsignuptwoweeks-perspective_alpha_website_small.jpg'
+export const Language=[{identifier:"en",name:"English"},
+    {identifier:"hindi",name:"Hindi"},
+    {identifier:"spanish",name:"Spanish"}
+]
